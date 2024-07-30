@@ -1,0 +1,65 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.main
+{   
+    /* margin-top: 100vw; */
+    height: 150vh;
+    width:100vw;
+    background-color: yellow;
+    position: relative;
+}
+
+.one{
+   
+    position:sticky;
+    /* left: 100px; */
+    top:0px;
+    /* margin:20px; */
+   /*  top: 20px;
+    left: 20px; */
+    /* margin: 20px; */
+    height: 200px;
+    width:200px;
+    background-color: green;
+}
+.two{
+   
+    /* position:absolute; */
+    /* left: 100px; */
+    /* top:0px; */
+    /* margin:20px; */
+   /*  top: 20px;
+    left: 20px; */
+    /* margin: 20px; */
+    height: 200px;
+    width:200px;
+    background-color: black;
+}
+.three{
+   
+    /* position:absolute; */
+    /* left: 100px; */
+    /* top:0px; */
+    /* margin:20px; */
+   /*  top: 20px;
+    left: 20px; */
+    /* margin: 20px; */
+    height: 200px;
+    width:200px;
+    background-color: blue;
+}
+.four{
+   
+    /* position:absolute; */
+    /* left: 100px; */
+    /* top:0px; */
+    /* margin:20px; */
+   /*  top: 20px;
+    left: 20px; */
+    /* margin: 20px; */
+    height: 200px;
+    width:200px;
+    background-color: red;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>anitmation practise</title>
+    <style>
+        body {
+            background-color: aqua;
+            height: 100vh;
+
+        }
+
+        *,
+        *:before,
+        *:after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Roboto Mono";
+
+
+
+        }
+
+        .wrapper {
+            align-items: center;
+            box-sizing: content-box;
+            margin: auto;
+            position: relative;
+            top: 50%;
+            justify-content: center;
+            display: flex;
+            background-color: white;
+            border: 2px solid black;
+            height: 50px;
+            width: 400px;
+
+        }
+
+        .wrapper p {}
+
+        .words {
+            height: 21px;
+            overflow: hidden;
+
+        }
+
+        .wrapper span {
+            margin-left: 9px;
+            height: 100%;
+            display: block;
+            position: relative;
+
+            animation: tishat 4.5s infinite;
+            animation-delay: 0.5s;
+        }
+
+        .wrapper span:nth-child(1) {
+            color: blue;
+        }
+
+        @keyframes tishat {
+            20% {
+                transform: translatey(-112%);
+            }
+
+            40% {
+                transform: translatey(-212%);
+            }
+
+            60% {
+                transform: translatey(-112%);
+            }
+
+
+
+
+            /*60% {
+                transform: translateY(-100%);
+            }
+            
+             75% {
+                transform: translateY(-212%);
+            }
+
+            100% {
+                transform: translateY(-200%);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <p>CODING IS
+        </p>
+        <div class="words">
+            <span>FUN</span>
+            <span>AWESOME</span>
+            <span>ADDICTIVE</span>
+        </div>
+    </div>
+</body>
+</html>

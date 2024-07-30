@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>div </title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .maindiv {
+            height: 800px;
+            width: 800px;
+            border: 2px solid black;
+            margin: auto;
+            background-color: aqua;
+            box-sizing: border-box;
+
+        }
+
+
+        .submain {
+            border: 2px solid black;
+            margin: 10px;
+            height: 500px;
+            width: 500px;
+            margin: auto;
+            position: relative;
+            top: 15px;
+            background-color: white;
+            box-sizing: border-box;
+
+
+        }
+
+        .submain div {
+            box-sizing: border-box;
+            display: inline-block;
+            margin: 50px;
+            height: 100px;
+            width: 100px;
+            border: 1px solid black;
+            background-color: greenyellow;
+        }
+
+        .sub1 p {
+            border-radius: 5px;
+            position: relative;
+            left: 8px;
+            width: 80px;
+            align-items: center;
+            text-align: center;
+            padding: 2px;
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <div class="maindiv">
+        <div class="submain">
+            <div class="sub1">
+                <p>Main Menu</p>
+            </div>
+            <div class="sub2"></div>
+            <div class="sub3"></div>
+        </div>
+    </div>
+</body>
+</html>

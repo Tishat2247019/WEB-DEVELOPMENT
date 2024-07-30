@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+.container{
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    height: 50vh;
+    width: 47vw;
+    background-color: white;
+    border-radius: 10px;
+    display: grid;
+    grid-template-areas: 'contact form';
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+}
+.contact{
+    grid-area: contact;
+    background-color:rgb(188, 145, 36);
+    border-radius: 10px 0px 0px  10px;
+    display: grid;
+    grid-template-rows: 0.2fr 1fr;
+    /* justify-content: center; */
+    /* position: relative; */
+}
+.form{
+    grid-area: form;
+    background-color: white;
+    padding:10px 0px 10px 15px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.form *{
+    padding:10px;
+    margin-right: 10px;
+    /* display: flex;
+    flex-direction: column; */
+}
+.contact h2{
+    font-size: 1.8rem;
+    /* display: ; */
+    /* border: 1px solid black; */
+    /* width: 100px; */
+    /* margin:auto; */
+    text-align: center;
+    margin-top: 20px;
+    /* justify-content: center; */
+}
+
+.contact p{
+    text-align: center;
+    padding-top: 25px;
+}
+
+.address{
+    /* border:1px solid black; */
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+
+
+.form button{
+    
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color:rgb(188, 145, 36);
+    border: none;
+    transition-delay: 100ms;
+    transition: 0.4s ease;
+    /* animation: 0.5s ease; */
+
+}
+
+.form button a{
+    text-decoration: none;
+    color: black;
+}
+
+.form button:hover{
+    background-color: white;
+    border: 1px solid black;
+}
+
+@media screen and (max-width:700px)
+    {
+        .container{
+            grid-template-areas: 'contact'
+                                  'form';
+            /* grid-template-rows: 2fr 1fr; */
+            grid-template-columns: 1fr;
+            height:70vh;
+            width: 65vw;
+            place-content: center;
+            /* place-items: center; */
+            justify-content: center;
+
+        }
+
+        .contact{
+            /* height:70vh; */
+            /* width: 100%; */
+            border-radius: 10px;
+            /* margin: /auto; */
+            align-self: center;
+            /* border:1px solid black; */
+        }
+
+        .form{
+            /* border:1px solid black; */
+        }
+
+        
+    }

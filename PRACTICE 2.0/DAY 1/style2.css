@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.navbar nav ul{
+    display: flex;
+    flex-direction:row;
+    position:absolute;
+    width:790px;
+    height: 43px;
+    left: 1083px;
+    gap:45px;
+    top:19px;
+}
+
+.navbar nav ul li{
+    border:2px solid rgb(0, 0, 0);
+    display: inline-block;
+    font-family: "Roboto Mono";
+    font-style: norlam;
+    font-weight: 450px;
+    font-size: 18px;
+    line-height: 23px;
+    color: black;
+    transition: 300ms;
+    cursor: pointer;
+    padding: 8px 18px;
+}
+
+.navbar nav ul li:hover{
+    transform:translateY(-9px);
+    color:rgb(255, 255, 255);
+   
+    background-color: rgb(77, 33, 164);
+}
