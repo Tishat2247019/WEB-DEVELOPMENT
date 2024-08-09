@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 10px;
+  border: 2px solid black;
+}
+
+.card {
+  margin: 13px;
+  width: 800px;
+  height: auto;
+  border: 2px solid black;
+  display: flex;
+  padding: 10px;
+}
+
+.card .image img {
+  width: 150px;
+  height: auto;
+}
+
+.text {
+  margin-left: 20px;
+}
+
+.text p {
+  margin-top: 10px;
+}
+
+.new {
+  padding: 20px;
+  margin: 10px;
+  border: 2px solid black;
+}
